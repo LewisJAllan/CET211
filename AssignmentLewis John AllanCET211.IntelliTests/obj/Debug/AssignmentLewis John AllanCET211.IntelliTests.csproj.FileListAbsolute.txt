@@ -1,0 +1,12 @@
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\AssignmentLewis John AllanCET211.IntelliTests.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\AssignmentLewis John AllanCET211.IntelliTests.pdb
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\AssignmentLewis John AllanCET211.exe
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\Microsoft.Pex.Framework.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\Microsoft.ExtendedReflection.Reasoning.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\Microsoft.ExtendedReflection.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\AssignmentLewis John AllanCET211.pdb
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\bin\Debug\Microsoft.Pex.Framework.xml
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\obj\Debug\AssignmentLewis John AllanCET211.IntelliTests.csprojResolveAssemblyReference.cache
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\obj\Debug\AssignmentLewis John AllanCET211.IntelliTests.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.IntelliTests\obj\Debug\AssignmentLewis John AllanCET211.IntelliTests.pdb

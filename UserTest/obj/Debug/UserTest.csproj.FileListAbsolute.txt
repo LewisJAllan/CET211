@@ -1,0 +1,8 @@
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\bin\Debug\UserTest.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\bin\Debug\UserTest.pdb
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\bin\Debug\AssignmentLewis John AllanCET211.exe
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\bin\Debug\AssignmentLewis John AllanCET211.pdb
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\obj\Debug\UserTest.csprojResolveAssemblyReference.cache
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\obj\Debug\UserTest.dll
+E:\Lewis' Stuff\University\CET211\Assignment\AssignmentLewis John AllanCET211\UserTest\obj\Debug\UserTest.pdb

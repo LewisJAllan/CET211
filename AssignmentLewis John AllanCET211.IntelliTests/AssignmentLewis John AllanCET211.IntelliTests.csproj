@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A280721D-0BD5-4BC2-9ED7-5E0FDD4F642A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AssignmentLewis_John_AllanCET211.IntelliTests</RootNamespace>
+    <AssemblyName>AssignmentLewis John AllanCET211.IntelliTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <CodeContractsEnableRuntimeChecking>True</CodeContractsEnableRuntimeChecking>
+    <CodeContractsRuntimeCheckingLevel>Full</CodeContractsRuntimeCheckingLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Pex.Framework">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Pex\Microsoft.Pex.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssignmentLewis John AllanCET211\AssignmentLewis John AllanCET211.csproj">
+      <Project>{BF9B0D30-7A1A-4044-96A9-BDB941C128C5}</Project>
+      <Name>AssignmentLewis John AllanCET211</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoxingClassTest.ConstructorTest.g.cs">
+      <DependentUpon>BoxingClassTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoxingClassTest.cs" />
+    <Compile Include="BoxingClassTest.ToStringTest.g.cs">
+      <DependentUpon>BoxingClassTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.BookSessionTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.CountGetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.CountSetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.cs" />
+    <Compile Include="ClassesTest.LocationGetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.LocationSetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.PriceGetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.PriceSetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.ToStringTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.TotalNumGetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassesTest.TotalNumSetTest.g.cs">
+      <DependentUpon>ClassesTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterFieldsExceptionTest.ConstructorTest.g.cs">
+      <DependentUpon>EnterFieldsExceptionTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterFieldsExceptionTest.cs" />
+    <Compile Include="GymTest.BookSessionTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.ConstructorTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.CountGetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.CountSetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.cs" />
+    <Compile Include="GymTest.LocationGetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.LocationSetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.PriceGetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.PriceSetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.ToStringTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.TotalNumGetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymTest.TotalNumSetTest.g.cs">
+      <DependentUpon>GymTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymWithPoolTest.ConstructorTest.g.cs">
+      <DependentUpon>GymWithPoolTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymWithPoolTest.cs" />
+    <Compile Include="GymWithPoolTest.ToStringTest.g.cs">
+      <DependentUpon>GymWithPoolTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.BookSessionTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.CompareToTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.ConstructorTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.CountGetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.CountSetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.cs" />
+    <Compile Include="PersonalTrainerTest.LocationGetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.LocationSetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.NameGetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.NameSetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.PriceGetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.PriceSetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.ToStringTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.TotalNumGetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerTest.TotalNumSetTest.g.cs">
+      <DependentUpon>PersonalTrainerTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\PexAssemblyInfo.cs" />
+    <Compile Include="UserListTest.AddUserTest.g.cs">
+      <DependentUpon>UserListTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserListTest.ConstructorTest.g.cs">
+      <DependentUpon>UserListTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserListTest.cs" />
+    <Compile Include="UserListTest.FindItemTest.g.cs">
+      <DependentUpon>UserListTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.AccountNumberGetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.AccountNumberSetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.BookItemTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.CheckLoginTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.ConstructorTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.cs" />
+    <Compile Include="UserTest.NameGetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.NameSetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.PasswordGetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.PasswordSetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.PayTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.RunningCostGetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.RunningCostSetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.SessionTypeTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.ShowTotalTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.ToStringTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.UserNameGetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.UserNameSetTest.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YogaClassTest.ConstructorTest.g.cs">
+      <DependentUpon>YogaClassTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YogaClassTest.cs" />
+    <Compile Include="YogaClassTest.ToStringTest.g.cs">
+      <DependentUpon>YogaClassTest.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

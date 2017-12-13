@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AssignmentLewis John AllanCET211</name>
+    </assembly>
+    <members>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.boxing1">
+            <summary>
+            An object of BoxingClass
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.yoga1">
+            <summary>
+            An object of YogaClass
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.newcastle">
+            <summary>
+            An object of Gym
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.washington">
+            <summary>
+            An object of Gym
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.sunderland">
+            <summary>
+            An object of GymWithPool
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.durham">
+            <summary>
+            An object of GymWithPool
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.PT">
+            <summary>
+            An object of PersonalTrainer
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.BookingForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.BookingForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.BookingForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.BoxingClass">
+            <summary>
+            BoxingClass is the child class of Classes
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.BoxingClass.#ctor(System.String)">
+            <summary>
+            Create data for an object of boxing class
+            </summary>
+            <param name="location">Which gym is the class held at</param>
+            <param name="price">The cost of the class</param>
+            <param name="count">How many people are taking the class</param>
+            <param name="totalNum">How many people can partake in the class</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.BoxingClass.ToString">
+            <summary>
+            Informs user of the class location price and what the class is
+            </summary>
+            <returns>string message</returns>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.Classes">
+            <summary>
+            An abstract class for booking specific gym classes at a gym
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Classes.location">
+            <summary>
+            attribute for containing object location
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Classes.price">
+            <summary>
+            attribute for storing price value of object
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Classes.count">
+            <summary>
+            attribute for tallying total number of members in class
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Classes.totalNum">
+            <summary>
+            attribute for the class total member size possible
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Classes.Location">
+            <summary>
+            property for accessing the location attribute
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Classes.Price">
+            <summary>
+            property for accessing the price attribute
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Classes.Count">
+            <summary>
+            property for accessing the count attribute
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Classes.TotalNum">
+            <summary>
+            property for accessing the totalNum attribute
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Classes.BookSession">
+            <summary>
+            Check for spaces and book a class
+            </summary>
+            <returns>true if spaces and adjusts size</returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Classes.ToString">
+            <summary>
+            Write a message for an object of this class
+            </summary>
+            <returns>a string message</returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.EnterFieldsException.#ctor">
+            <summary>
+            using original exception message to output created exceptions message
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Form1.userAdd">
+            <summary>
+            An array to pass into a new User object
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.Gym">
+            <summary>
+            Serializable class for handling data objects for different gyms
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Gym.location">
+            <summary>
+            Attribute containing object information of Gyms location
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Gym.price">
+            <summary>
+            attribute containing object information of the gyms price
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Gym.totalNum">
+            <summary>
+            attribute to store the total amount of users at the gym
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Gym.TotalNum">
+            <summary>
+            property for accessing the attribute totalNum
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Gym.Location">
+            <summary>
+            Property for accessing the attribute, location
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Gym.Price">
+            <summary>
+            Property for accessing the attribute, price
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.Gym.count">
+            <summary>
+            attribute holding the number of spaces taken in the gym
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Gym.Count">
+            <summary>
+            property access modifier for spaces
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Gym.#ctor(System.String)">
+            <summary>
+            constructor that requires the location to be entered, price is set to fixed cost
+            </summary>
+            <param name="location">location of the gym</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Gym.BookSession">
+            <summary>
+            Method for the user booking a session
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Gym.ToString">
+            <summary>
+            Overriding function for writing a string to screen
+            </summary>
+            <returns>String value containing location and price</returns>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.GymWithPool">
+            <summary>
+            child class of Gym for booking a month at a gym with a pool
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.GymWithPool.#ctor(System.String)">
+            <summary>
+            Constructor to pass in data values for an object
+            </summary>
+            <param name="location">Location of the gym, which town/city</param>
+            <param name="price">The monthly cost of the gym</param>
+            <param name="count">How many members are attending the gym</param>
+            <param name="totalNum">Amount of available memberships remainding</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.GymWithPool.ToString">
+            <summary>
+            string to output to screen showing this gym comes with a pool
+            </summary>
+            <returns>A message containing location price and that it has a pool</returns>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.IBookable">
+            <summary>
+            Interface to implement all bookable sessions for a user
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.IBookable.Price">
+            <summary>
+            Property for getting the price
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.IBookable.BookSession">
+            <summary>
+            method for booking a session
+            </summary>
+            <returns>boolean to notify if a session has been booked</returns>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.PersonalTrainer">
+            <summary>
+            Personal Trainers at the gym which implement the IComparable interface
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.PersonalTrainer.name">
+            <summary>
+            attribute for storing new personal trainers name
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.PersonalTrainer.location">
+            <summary>
+            location of new personal trainer
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.PersonalTrainer.price">
+            <summary>
+            monthly cost of the personal trainer
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.PersonalTrainer.totalNum">
+            <summary>
+            how many members they can take on in a month
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.PersonalTrainer.count">
+            <summary>
+            amount of members they are currently training
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.PersonalTrainer.Name">
+            <summary>
+            property for accessing trainers name
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.PersonalTrainer.Location">
+            <summary>
+            property for accessing trainers location
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.PersonalTrainer.Price">
+            <summary>
+            propert for accessing trainers price
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.PersonalTrainer.TotalNum">
+            <summary>
+            property for accessing totalNum
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.PersonalTrainer.Count">
+            <summary>
+            property for accessing the count
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.PersonalTrainer.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            constructor for passing in data to an object of class Personal Trainer
+            </summary>
+            <param name="name">Name of the personal trainer</param>
+            <param name="location">location of where the personal trainer trains clients</param>
+            <param name="totalNum"> total number of clients the trainer will take on</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.PersonalTrainer.CompareTo(AssignmentLewis_John_AllanCET211.PersonalTrainer)">
+            <summary>
+            method of interface IComparable to organise trainers into alphabetical order
+            </summary>
+            <param name="p">object of class Personal Trainer to be passed in</param>
+            <returns>integer to sort trainers into a list</returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.PersonalTrainer.BookSession">
+            <summary>
+            Check for spaces and book a personal trainer
+            </summary>
+            <returns>true if spaces and adjusts size</returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.User">
+            <summary>
+            Creating a serializable class that shares a relationship with the interface IBookable
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.User.name">
+            <summary>
+            declaring attributes for class User, name
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.User.username">
+            <summary>
+            declaring attribute for class User, username
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.User.password">
+            <summary>
+            declaring attribute for class User, password
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.User.accountNumber">
+            <summary>
+            declaring attribute for class User, account number
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.User.runningCost">
+            <summary>
+            declaring attribute for class User, running cost
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.User.rand">
+            <summary>
+            create random method for declaring an account number
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.User.Name">
+            <summary>
+            creating an access modifier, property for attribute, name
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.User.UserName">
+            <summary>
+            creating an access modifier, property for attribute username
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.User.Password">
+            <summary>
+            creating an access modifier, property for attribute password
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.User.AccountNumber">
+            <summary>
+            creating an access modifier, property for attribute accountNumber by getting a random integer between 10000 and 19999
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.User.RunningCost">
+            <summary>
+            creating an access modifier, property for attribute runningCost
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.User.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructor with parameters for storing an object of class User
+            </summary>
+            <param name="Name">End Users Full Name</param>
+            <param name="Username">End users created username</param>
+            <param name="Password">End users created password</param>
+            <param name="AccountNumber">end users account number, this is randomised</param>
+            <param name="RunningCost">Running cost is part of a method that increases by the users interactions</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.User.ShowTotal">
+            <summary>
+            method for displaying the users current running cost
+            </summary>
+            <param name="RunningCost">The running cost of all the users gym interactions</param>
+            <returns>A string message containing the user name and running cost</returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.User.CheckLogin(System.String,System.String)">
+            <summary>
+            If it is an existing user, check they have entered the correct login details
+            </summary>
+            <param name="USERNAME">The passed in parameter representing the username value</param>
+            <param name="PASSWORD">The passed in parameter represent the password value</param>
+            <returns></returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.User.ToString">
+            <summary>
+            Overriding message for display object information for class User
+            </summary>
+            <returns>returns a string message of user details</returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.User.BookItem(AssignmentLewis_John_AllanCET211.IBookable)">
+            <summary>
+            implementing the IBookable interface, tally up the cost
+            </summary>
+            <param name="bookable">object of the IBookable interface</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.User.SessionType(AssignmentLewis_John_AllanCET211.IBookable)">
+            <summary>
+            Book a session for the user and tally cost
+            </summary>
+            <param name="bookable">Bookable session</param>
+            <returns>string confirming the amount to now be paid and what has just been booked</returns>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.User.Pay">
+            <summary>
+            Method for paying bill that resets bill total to zero
+            </summary>
+            <returns>String message confirming payment</returns>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.UserAccount.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.UserAccount.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.UserAccount.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.UserList">
+            <summary>
+            Creating a class specifically to make adding and finding a new user easier
+            </summary>
+        </member>
+        <member name="F:AssignmentLewis_John_AllanCET211.UserList.Users">
+            <summary>
+            Generic List of Student objects
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.UserList.#ctor">
+            <summary>
+            Constructor without parameters
+            </summary>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.YogaClass">
+            <summary>
+            YogaClass is the child class of Classes
+            </summary>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.YogaClass.#ctor(System.String)">
+            <summary>
+            Data to be passed in for an object of class Yoga
+            </summary>
+            <param name="location">Gyms location for yoga class</param>
+            <param name="price">the cost of the yoga session</param>
+            <param name="count">how many people are partaking in the class</param>
+            <param name="totalNum">how many people can partake in the class</param>
+        </member>
+        <member name="M:AssignmentLewis_John_AllanCET211.YogaClass.ToString">
+            <summary>
+            Informs user of the class location price and what the class is
+            </summary>
+            <returns>string message</returns>
+        </member>
+        <member name="T:AssignmentLewis_John_AllanCET211.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AssignmentLewis_John_AllanCET211.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
